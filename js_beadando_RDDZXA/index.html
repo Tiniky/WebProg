@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Felvillanyozódás</title>
+</head>
+<body>
+    <aside id="left">
+        <img src="../beadando_RDDZXA/lighbulbman.png" title="The misterious Lighbulbman came to save the day" width="450">
+    </aside>
+
+    <aside id="right">
+        <img src="../beadando_RDDZXA/king_standing_in_darkness.png" title="King-sama" width="450">
+    </aside>
+    
+    <div id="before">
+        <label>Játékos neve:</label>
+        <input type="text" id="name">
+        <button id="new">Új Játék</button>
+    </div>
+
+    <!--div id="leaderboard">
+        <p>Előzmény: </p>
+    </div-->
+
+    <div id="game">
+        <p id="player"></p>
+        <p id="time">Eltelt idő: <span id="secondsPassed">0</span>s</p>
+        <p id="label"></p>
+    </div>
+
+    <div id="after">
+        <p id="player2"></p>
+        <p id="time2">Eltelt idő: <span id="secondsPassed2">0</span>s</p>
+        <img src="../beadando_RDDZXA/anime_style_lightbulb.png" width="450">
+        <p>GG WP</p>
+        <button id="again">Új Játék</button>
+    </div>
+
+    <div id="difficulty">
+        <p>Válassz nehézséget: </p>
+        <button id="easy">KÖNNYŰ</button>
+        <button id="medium">HALADÓ</button>
+        <button id="hard">EXTRÉM</button>
+    </div>
+            
+    <script src="game.js"></script>
+</body>
+</html>
