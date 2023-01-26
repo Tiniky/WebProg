@@ -1,0 +1,91 @@
+[
+    {
+        "id":"poll1",
+        "question":"Szeretnéd-e, hogy legyen INGYEN Pöttyös automata a Lágymányoson?",
+        "options":["igen", "nem"],
+        "isMultiple":false,
+        "createdAt":"2022-12-04",
+        "deadline":"2022-12-12",
+        "answers":[
+            {
+                "igen":2
+            },
+            {
+                "nem":0
+            }
+        ],
+        "voted":["userid1","userid2"]
+    },
+    {
+        "id":"poll2",
+        "question":"Miket tartalmazzon a Pöttyös automata?",
+        "options":["Klasszikus Túró Rudi", "Karamellás Guru", "Tejszelet", "Fitness Rudi"],
+        "isMultiple":true,
+        "createdAt":"2022-12-05",
+        "deadline":"2024-12-13",
+        "answers":[
+            {
+                "Klasszikus Túró Rudi":3
+            },
+            {
+                "Karamellás Guru":3
+            },
+            {
+                "Tejszelet":3
+            },
+            {
+                "Fitness Rudi":2
+            }
+        ],
+        "voted":["userid1","userid2","userid3"]
+    },
+    {
+        "id":"poll3",
+        "question":"Szeretnéd-e, hogy legyen INGYEN Hell/kávé osztogatás Lágymányoson?",
+        "options":["igen", "nem"],
+        "isMultiple":false,
+        "createdAt":"2022-12-23",
+        "deadline":"2023-02-28",
+        "answers":[
+            {
+                "igen":1
+            },
+            {
+                "nem":0
+            }
+        ],
+        "voted":["userid3"]
+    },
+    {
+        "id":"poll4",
+        "question":"Milyen koffein tartalmú innivalót szokott fogyasztani?",
+        "options":["kávé(Espresso, Cappuccino, Latte, stb.)", "Monster", "Hell", "Red Bull", "Rockstar", "Burn", "Bomba"],
+        "isMultiple":true,
+        "createdAt":"2023-01-02",
+        "deadline":"2024-01-13",
+        "answers":[
+            {
+                "kávé(Espresso, Cappuccino, Latte, stb.)":3
+            },
+            {
+                "Monster":3
+            },
+            {
+                "Hell":3
+            },
+            {
+                "Red Bull":2
+            },
+            {
+                "Rockstar":1
+            },
+            {
+                "Burn":3
+            },
+            {
+                "Bomba":2
+            }
+        ],
+        "voted":["userid1","userid2","userid3"]
+    }
+]

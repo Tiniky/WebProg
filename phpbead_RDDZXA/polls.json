@@ -1,0 +1,125 @@
+[
+    {
+        "id": "poll1",
+        "question": "Szeretn\u00e9d-e, hogy legyen INGYEN P\u00f6tty\u00f6s automata a L\u00e1gym\u00e1nyoson?",
+        "options": [
+            "igen",
+            "nem"
+        ],
+        "isMultiple": false,
+        "createdAt": "2022-12-04",
+        "deadline": "2022-12-12",
+        "answers": [
+            {
+                "igen": 2
+            },
+            {
+                "nem": 0
+            }
+        ],
+        "voted": [
+            "userid1",
+            "userid2"
+        ]
+    },
+    {
+        "id": "poll2",
+        "question": "Miket tartalmazzon a P\u00f6tty\u00f6s automata?",
+        "options": [
+            "Klasszikus T\u00far\u00f3 Rudi",
+            "Karamell\u00e1s Guru",
+            "Tejszelet",
+            "Fitness Rudi"
+        ],
+        "isMultiple": true,
+        "createdAt": "2022-12-12",
+        "deadline": "2022-12-31",
+        "answers": [
+            {
+                "Klasszikus T\u00far\u00f3 Rudi": 3
+            },
+            {
+                "Karamell\u00e1s Guru": 3
+            },
+            {
+                "Tejszelet": 3
+            },
+            {
+                "Fitness Rudi": 2
+            }
+        ],
+        "voted": [
+            "userid1",
+            "userid2",
+            "userid3"
+        ]
+    },
+    {
+        "id": "poll3",
+        "question": "Szeretn\u00e9d-e, hogy legyen INGYEN Hell\/k\u00e1v\u00e9 osztogat\u00e1s L\u00e1gym\u00e1nyoson?",
+        "options": [
+            "igen",
+            "nem"
+        ],
+        "isMultiple": false,
+        "createdAt": "2022-12-23",
+        "deadline": "2023-02-28",
+        "answers": [
+            {
+                "igen": 2
+            },
+            {
+                "nem": 1
+            }
+        ],
+        "voted": [
+            "userid3",
+            "userid4"
+        ]
+    },
+    {
+        "id": "poll4",
+        "question": "Milyen koffein tartalm\u00fa innival\u00f3t szokott fogyasztani?",
+        "options": [
+            "k\u00e1v\u00e9(Espresso, Cappuccino, Latte, stb.)",
+            "Monster",
+            "Hell",
+            "Red Bull",
+            "Rockstar",
+            "Burn",
+            "Bomba"
+        ],
+        "isMultiple": true,
+        "createdAt": "2023-01-02",
+        "deadline": "2024-01-13",
+        "answers": [
+            {
+                "k\u00e1v\u00e9(Espresso, Cappuccino, Latte, stb.)": 4
+            },
+            {
+                "Monster": 4
+            },
+            {
+                "Hell": 4
+            },
+            {
+                "Red Bull": 2
+            },
+            {
+                "Rockstar": 1
+            },
+            {
+                "Burn": 3
+            },
+            {
+                "Bomba": 2
+            }
+        ],
+        "voted": [
+            "userid1",
+            "userid2",
+            "userid3",
+            "userid4"
+        ]
+    }
+]
